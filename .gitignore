@@ -30,3 +30,6 @@ node_modules
 yarn-debug.log*
 yarn-error.log*
 .yarn-integrity
+
+# asdf tool versions
+.tool-versions
