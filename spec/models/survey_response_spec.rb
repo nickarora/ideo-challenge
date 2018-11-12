@@ -54,9 +54,9 @@ describe SurveyResponse do
     let(:question_choice_2) { create(:question_choice, creative_quality: creative_quality_1, score: 10) }
     let(:question_choice_3) { create(:question_choice, creative_quality: creative_quality_2, score: 100) }
 
-    let(:answer_1) { create(:answer, question_choice: question_choice_1) }
-    let(:answer_2) { create(:answer, question_choice: question_choice_2) }
-    let(:answer_3) { create(:answer, question_choice: question_choice_3) }
+    let(:answer_1) { create(:answer, question_choice: question_choice_1, survey_response: survey_response) }
+    let(:answer_2) { create(:answer, question_choice: question_choice_2, survey_response: survey_response) }
+    let(:answer_3) { create(:answer, question_choice: question_choice_3, survey_response: survey_response) }
 
     before do
       survey_response.answers = [
