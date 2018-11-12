@@ -26,13 +26,9 @@
           <tr>
             <td>
               <% if question_choice == answer.question_choice %>
-                <strong>
-                  <%= question_choice.text %>
-                </strong>
+                <%= question_choice.selected %>
               <% else %>
-                <span class="text-muted">
-                  <%= question_choice.text %>
-                </span>
+                <%= question_choice.deselected %>
               <% end %>
             </td>
           </tr>

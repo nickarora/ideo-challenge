@@ -9,9 +9,10 @@ class SurveyResponsesController < ApplicationController
       ]
     )
     .find(params[:id])
+    .decorate
   end
 
   def index
-    @survey_responses = SurveyResponse.all
+    @survey_responses = SurveyResponse.all.decorate
   end
 end

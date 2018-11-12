@@ -6,10 +6,6 @@ class SurveyResponse < ApplicationRecord
 
   delegate :count, to: :answers, prefix: true
 
-  def display_name
-    "#{first_name} #{last_name}"
-  end
-
   def completed?
     answers_count == Question.count
   end

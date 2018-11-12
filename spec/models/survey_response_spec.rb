@@ -10,19 +10,6 @@ describe SurveyResponse do
     it { is_expected.to validate_presence_of :last_name }
   end
 
-  describe '#display_name' do
-    let(:survey_response) { create(:survey_response) }
-
-    it 'concatenates the first and last name' do
-      expect(survey_response.display_name).to eql(
-        [
-          survey_response.first_name,
-          survey_response.last_name
-        ].join(' ')
-      )
-    end
-  end
-
   describe '#completed?' do
     let(:survey_response) { build(:survey_response) }
 
