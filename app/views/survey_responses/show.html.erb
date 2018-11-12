@@ -13,6 +13,14 @@
         of
         <%= Question.count %>
         questions
+        <hr>
+        <% @creative_qualities.each do |quality| %>
+          <strong><%= quality.name %></strong>
+          <ul>
+            <li>Raw score: <%= @survey_response.raw_score_by_quality(quality) %></li>
+            <li>Max score: <%= quality.max_score %></li>
+          </ul>
+        <% end %>
       </div>
     </div>
 

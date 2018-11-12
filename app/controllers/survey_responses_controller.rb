@@ -1,5 +1,6 @@
 class SurveyResponsesController < ApplicationController
   def show
+    @creative_qualities = CreativeQuality.all.includes(:question_choices)
     @survey_response = SurveyResponse
     .includes(
       answers: [
