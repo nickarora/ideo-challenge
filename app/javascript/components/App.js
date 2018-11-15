@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import CreativeQualitySortOrder from './CreativeQualitySortOrder'
 import CreativeQualities from './CreativeQualities'
 
 export const StyledHeader = styled.h1`
@@ -16,6 +17,7 @@ class App extends Component {
         <div className="col-md-12">
           <StyledHeader>Creative Qualities</StyledHeader>
           <CreativeQualities />
+          <CreativeQualitySortOrder />
         </div>
       </div>
     )
