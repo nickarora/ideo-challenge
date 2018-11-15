@@ -44,7 +44,8 @@
         "alias": {
           "~": "./app/javascript",
           "^~(.+)": "./app/javascript/src/\\1",
-          "#": "./__js_test_config"
+          "#": "./__js_test_config",
+          "assets": "./app//assets"
         }
       }
     ]

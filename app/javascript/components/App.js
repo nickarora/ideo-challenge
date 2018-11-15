@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import CreativeQualities from './CreativeQualities'
 
 export const StyledHeader = styled.h1`
   font-size: 32px;
@@ -14,6 +15,7 @@ class App extends Component {
       <div className="row">
         <div className="col-md-12">
           <StyledHeader>Creative Qualities</StyledHeader>
+          <CreativeQualities />
         </div>
       </div>
     )
