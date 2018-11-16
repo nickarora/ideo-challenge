@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Score renders the given score 1`] = `
+<styled.section>
+  <styled.small>
+    your score:
+  </styled.small>
+  -25
+</styled.section>
+`;

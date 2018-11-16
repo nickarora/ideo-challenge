@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreativeQualitySortOrder when SortOrder is by name renders as ascending 1`] = `
+<styled.section>
+  <styled.button
+    className="btn btn-primary false"
+    id="sort-by-score"
+    onClick={[MockFunction]}
+  >
+    Sort by score 
+    ↓
+  </styled.button>
+  <styled.button
+    className="btn btn-primary btn-info"
+    id="sort-by-name"
+    onClick={[MockFunction]}
+  >
+    Sort by name 
+    ↑
+  </styled.button>
+</styled.section>
+`;
+
+exports[`CreativeQualitySortOrder when SortOrder is by name renders as descending 1`] = `
+<styled.section>
+  <styled.button
+    className="btn btn-primary false"
+    id="sort-by-score"
+    onClick={[MockFunction]}
+  >
+    Sort by score 
+    ↓
+  </styled.button>
+  <styled.button
+    className="btn btn-primary btn-info"
+    id="sort-by-name"
+    onClick={[MockFunction]}
+  >
+    Sort by name 
+    ↓
+  </styled.button>
+</styled.section>
+`;
+
+exports[`CreativeQualitySortOrder when SortOrder is by score renders as ascending 1`] = `
+<styled.section>
+  <styled.button
+    className="btn btn-primary btn-info"
+    id="sort-by-score"
+    onClick={[MockFunction]}
+  >
+    Sort by score 
+    ↑
+  </styled.button>
+  <styled.button
+    className="btn btn-primary false"
+    id="sort-by-name"
+    onClick={[MockFunction]}
+  >
+    Sort by name 
+    ↓
+  </styled.button>
+</styled.section>
+`;
+
+exports[`CreativeQualitySortOrder when SortOrder is by score renders as descending 1`] = `
+<styled.section>
+  <styled.button
+    className="btn btn-primary btn-info"
+    id="sort-by-score"
+    onClick={[MockFunction]}
+  >
+    Sort by score 
+    ↓
+  </styled.button>
+  <styled.button
+    className="btn btn-primary false"
+    id="sort-by-name"
+    onClick={[MockFunction]}
+  >
+    Sort by name 
+    ↓
+  </styled.button>
+</styled.section>
+`;

@@ -20,12 +20,14 @@ const ascendingIcon = ascending => (ascending ? '↑' : '↓')
 const CreativeQualitySortOrder = ({ sortConfig, sortByName, sortByScore }) => (
   <Container>
     <Button
+      id="sort-by-score"
       onClick={sortByScore}
       className={buttonStyle(sortConfig.sortOrder === SortOrder.SCORE)}
     >
       Sort by score {ascendingIcon(sortConfig.scoreAscending)}
     </Button>
     <Button
+      id="sort-by-name"
       onClick={sortByName}
       className={buttonStyle(sortConfig.sortOrder === SortOrder.NAME)}
     >

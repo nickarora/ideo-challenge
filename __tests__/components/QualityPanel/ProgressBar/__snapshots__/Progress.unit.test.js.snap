@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress renders with a given progress and color 1`] = `
+<styled.div
+  style={
+    Object {
+      "background": "#333",
+      "width": "50%",
+    }
+  }
+/>
+`;

@@ -70,7 +70,7 @@ class Description extends Component {
         {this.description()}
         {this.props.quality.description.length > MAX_CHARS && (
           <Footer>
-            <ReadMore onClick={this.toggleTruncated}>
+            <ReadMore id="readmore-toggle" onClick={this.toggleTruncated}>
               {this.readMoreOrLess()}
             </ReadMore>
           </Footer>

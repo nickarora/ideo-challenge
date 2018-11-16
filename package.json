@@ -34,6 +34,7 @@
       "__tests__",
       "<rootDir>"
     ],
+    "snapshotSerializers": ["enzyme-to-json/serializer"],
     "transform": {
       "^.+\\.js$": "babel-jest"
     }
@@ -61,7 +62,7 @@
     "babel-jest": "^22.1.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.3",
+    "enzyme-to-json": "^3.3.4",
     "eslint": "^4.16.0",
     "eslint-config-airbnb": "~16.1.0",
     "eslint-config-prettier": "^3.0.1",

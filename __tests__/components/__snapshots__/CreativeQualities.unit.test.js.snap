@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreativeQualities renders a loading animation if the fetch request is still pending 1`] = `<LoadingAnimation />`;
+
+exports[`CreativeQualities renders an error if the fetch request fails 1`] = `
+<Error
+  error="unauthorized"
+/>
+`;
+
+exports[`CreativeQualities renders creative qualities once data has arrived 1`] = `
+<Connect(Qualities)
+  qualities={Array []}
+/>
+`;
