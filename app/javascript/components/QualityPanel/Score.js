@@ -5,7 +5,7 @@ import styled from 'styled-components'
 export const Container = styled.section`
   font-size: 46px;
   font-weight: bold;
-  margin-bottom: 48px;
+  margin-bottom: 8px;
 `
 
 export const Title = styled.small`

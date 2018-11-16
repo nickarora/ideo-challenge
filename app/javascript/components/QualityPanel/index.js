@@ -6,6 +6,7 @@ import Heading from './Heading'
 import Icon from './Icon'
 import Score from './Score'
 import Description from './Description'
+import ProgressBar from './ProgressBar'
 
 export const Content = styled.section`
   padding: 15px;
@@ -17,6 +18,7 @@ const QualityPanel = ({ quality }) => (
     <Content>
       <Icon quality={quality} />
       <Score quality={quality} />
+      <ProgressBar quality={quality} />
       <Description quality={quality} />
     </Content>
   </Card>
