@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading renders the quality name with the provided background color 1`] = `
+<styled.header
+  style={
+    Object {
+      "background": "#333",
+    }
+  }
+>
+  Foo
+</styled.header>
+`;

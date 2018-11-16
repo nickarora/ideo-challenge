@@ -1,13 +1,12 @@
 module ApplicationHelper
   def mock_creative_quality_scores
-    scores = [67, -25, 50]
     data = []
 
     CreativeQuality
       .limit(3)
       .each_with_index do |creative_quality, i|
       data << creative_quality.as_json.merge(
-        score: scores[i]
+        score: creative_quality.normalized_score
       )
     end
 

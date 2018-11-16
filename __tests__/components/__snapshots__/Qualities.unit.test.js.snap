@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Qualities renders a list of qualities 1`] = `
+<styled.section>
+  <FlipMovePropConverter
+    appearAnimation="fade"
+    delay={0}
+    disableAllAnimations={false}
+    duration={350}
+    easing="ease-in-out"
+    enterAnimation="elevator"
+    getPosition={[Function]}
+    leaveAnimation="elevator"
+    maintainContainerHeight={false}
+    staggerDelayBy={0}
+    staggerDurationBy={0}
+    typeName="div"
+    verticalAlignment="top"
+  >
+    <div
+      className="col-md-4"
+      key="Foo"
+    >
+      <QualityPanel
+        quality={
+          Object {
+            "color": "#333",
+            "description": "some description",
+            "name": "Foo",
+            "score": 50,
+          }
+        }
+      />
+    </div>
+    <div
+      className="col-md-4"
+      key="Bar"
+    >
+      <QualityPanel
+        quality={
+          Object {
+            "color": "#AAA",
+            "description": "other description",
+            "name": "Bar",
+            "score": -25,
+          }
+        }
+      />
+    </div>
+  </FlipMovePropConverter>
+</styled.section>
+`;

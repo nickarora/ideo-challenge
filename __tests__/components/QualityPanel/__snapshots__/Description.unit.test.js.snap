@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description renders a long description by truncating and adding a read more link 1`] = `
+<styled.section>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim in est quis dignissim. Morbi pulvinar risus ...
+  <styled.div>
+    <styled.span
+      id="readmore-toggle"
+      onClick={[Function]}
+    >
+      read more
+    </styled.span>
+  </styled.div>
+</styled.section>
+`;
+
+exports[`Description renders a short description without a read more link 1`] = `
+<styled.section>
+  short description
+</styled.section>
+`;

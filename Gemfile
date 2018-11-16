@@ -20,6 +20,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'webpacker', '~> 3.0'
 # fix security warning
 gem 'loofah', '>= 2.2.3'
+gem 'draper'
 
 group :development, :test do
   gem 'byebug', platform: :mri

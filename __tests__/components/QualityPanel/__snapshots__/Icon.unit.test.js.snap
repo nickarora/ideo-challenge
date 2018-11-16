@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon renders the correct icon for collaboration 1`] = `
+<styled.section
+  style={
+    Object {
+      "backgroundImage": "url(collaboration-img)",
+    }
+  }
+/>
+`;
+
+exports[`Icon renders the correct icon for empowerment 1`] = `
+<styled.section
+  style={
+    Object {
+      "backgroundImage": "url(empowerment-img)",
+    }
+  }
+/>
+`;
+
+exports[`Icon renders the correct icon for purpose 1`] = `
+<styled.section
+  style={
+    Object {
+      "backgroundImage": "url(purpose-img)",
+    }
+  }
+/>
+`;
