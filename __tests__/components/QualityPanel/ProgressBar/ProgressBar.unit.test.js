@@ -29,7 +29,7 @@ describe('ProgressBar', () => {
     const wrapper = shallow(
       <ProgressBar
         quality={{
-          score: -50,
+          score: 0,
           color: '#333',
         }}
       />

@@ -28,12 +28,7 @@ exports[`ProgressBar renders with a positive score 1`] = `
 
 exports[`ProgressBar renders with a score of zero 1`] = `
 <styled.section>
-  <styled.div>
-    <Progress
-      color="#333"
-      progress={-50}
-    />
-  </styled.div>
+  <styled.div />
   <styled.div />
   <styled.div />
 </styled.section>
