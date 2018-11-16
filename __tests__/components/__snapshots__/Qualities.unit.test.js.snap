@@ -3,6 +3,7 @@
 exports[`Qualities renders a list of qualities 1`] = `
 <styled.section>
   <FlipMovePropConverter
+    appearAnimation="fade"
     delay={0}
     disableAllAnimations={false}
     duration={350}

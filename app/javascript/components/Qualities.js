@@ -12,7 +12,7 @@ export const Container = styled.section`
 
 const Qualities = ({ sortConfig, qualities }) => (
   <Container>
-    <FlipMove>
+    <FlipMove appearAnimation="fade">
       {sortQualities(qualities, sortConfig).map(quality => (
         <div key={quality.name} className="col-md-4">
           <QualityPanel quality={quality} />
